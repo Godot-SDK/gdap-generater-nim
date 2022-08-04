@@ -2,7 +2,7 @@ import os
 import system
 import std/json
 var cmd = commandLineParams()
-var rootDir = cmd[0]
+var rootDir:string = cmd[0]
 createDir(rootDir)
 createDir(rootDir & "/dependencies")
 createDir(rootDir & "/dependencies/local")

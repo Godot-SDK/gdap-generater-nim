@@ -9,11 +9,10 @@ import system/io
 #是否启用详细输出
 var verbose_enabled = false
 var localDependencies:seq[string]
-var remoteDependencies:seq[string]
-var pluginDir = "/plugin"
-var localDepDir = "/dependencies/local"
-var remoteDepDir = "/dependencies/remote"
-var outPutDir = "/output"
+const pluginDir = "/plugin"
+const localDepDir = "/dependencies/local"
+const remoteDepDir = "/dependencies/remote"
+const outPutDir = "/output"
 
 #插件的文件名字 xxx.aar
 proc get_plugin(path:string):string = 
