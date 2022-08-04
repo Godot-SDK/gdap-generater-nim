@@ -1,0 +1,4 @@
+{
+    "custom_maven_repos": [],
+    "remotes": ["androidx.appcompat:appcompat:1.0.0","androidx.legacy:legacy-support-v4:1.0.0","com.squareup.okio:okio:1.14.0","com.squareup.okhttp3:okhttp:3.11.0","com.google.code.gson:gson:2.8.2","pl.droidsonroids.gif:android-gif-drawable:1.2.6","com.squareup.picasso:picasso:2.5.2"]
+}

@@ -1,0 +1,3 @@
+*.exe
+test/
+example/PocketPlugin/output/
