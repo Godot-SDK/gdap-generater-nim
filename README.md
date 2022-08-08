@@ -16,6 +16,6 @@ nim c -d:release gen.nim
 ```
 ## 32位请从源码构建
 ```
-nim c -d:release init.nim
-nim c -d:release gen.nim
+nim c -d:release --cpu:i386 init.nim
+nim c -d:release --cpu:i386 gen.nim
 ```
